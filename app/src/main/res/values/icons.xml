@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icn_full_screen">&#xf25e;</string>
+    <string name="icn_normal_screen">&#xf267;</string>
+
+    <string name="icn_vahed_Type1">&#xf110;</string>
+    <string name="icn_vahed_Type2">&#xf2ad;</string>
+    <string name="icn_vahed_Type3">&#xf272;</string>
+    <string name="icn_vahed_Type4">&#xf47c;</string>
+    <string name="icn_vahed_Type5">&#xf318;</string>
+    <string name="icn_vahed_Type6">&#xf2c1;</string>
+    <string name="icn_vahed_Type7">&#xf448;</string>
+    <string name="icn_vahed_Type8">&#xf353;</string>
+    <string name="icn_vahed_Type9">&#xf357;</string>
+    <string name="icn_vahed_Type10">&#xf43b;</string>
+    <string name="icn_vahed_Type11">&#xf437;</string>
+    <string name="icn_vahed_Type12">&#xf2a5;</string>
+    <string name="icn_vahed_Type13">&#xf2e3;</string>
+    <string name="icn_vahed_Type14">&#xf217;</string>
+    <string name="icn_vahed_Type15">&#xf447;</string>
+    <string name="icn_vahed_Type16">&#xf341;</string>
+    <string name="icn_vahed_Type17">&#xf3f8;</string>
+    <string name="icn_vahed_Type18">&#xf4b7;</string>
+    <string name="icn_vahed_Type19">&#xf369;</string>
+    <string name="icn_vahed_Type20">&#xf276;</string>
+    <string name="icn_vahed_Type21">&#xf20a;</string>
+
+
+    <string name="icn_my_location">&#xf456;</string>
+    <string name="icn_public_places">&#xf47c;</string>
+    <string name="icn_navigation">&#xf3bb;</string>
+    <string name="icn_search">&#xf21f;</string>
+    <string name="icn_jobs">&#xf20d;</string>
+
+    <string name="icn_my_place">&#xf2a7;</string>
+
+    <string name="icn_recycler_hide">&#xf123;</string>
+    <string name="icn_recycler_show">&#xf126;</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navBarBackColor">#03A9F4</color>
+    <color name="colorPrimary">#b373f7</color>
+    <color name="colorPrimaryDark">#8805e6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="clrBottomTabSelected">#9c4dcc</color>
+    <color name="clrBottomNavigationViewBackground">#9c4dcc</color>
+    <color name="clrSpnrBackground">#33a200f9</color>
+    <color name="clrSpnrText">#FF000000</color>
+    <color name="clrRecyclerBack">#8bffffff</color>
+
+    <color name="violet_1">#B33EC9</color>
+    <color name="violet_2">#e581f5</color>
+    <color name="violet_3">#8E24AA</color>
+    <color name="violet_4">#6A1B9A</color>
+
+    <color name="clrSpnrBase">#33a200f9</color>
+    <color name="clrSpnrHighlight">#bcbfbb</color>
+    <color name="clrSpnrError">#ff0004</color>
+    <color name="clrSpnrHint">#6f98ff</color>
+    <color name="clrSpnrArrow">#6f98ff</color>
+    <color name="clrSpnrFloating_label">#00f7ff</color>
+
+    <color name="clrEditText">#787b26</color>
+    <color name="clrEditTextBackGround">#f1efef</color>
+    <color name="clrEditTextHint">#56787b26</color>
+
+
+</resources>

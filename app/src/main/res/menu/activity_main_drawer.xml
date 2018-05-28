@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myCurrentPlace"
+            android:icon="@drawable/ic_gps_icon"
+            android:title="الان کجام؟" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/icn_profile"
+            android:title="پروفایل من" />
+       <item
+            android:id="@+id/nav_myFriend"
+            android:icon="@drawable/icn_friends"
+            android:title="دوستام" />
+        <item
+            android:id="@+id/nav_myLikes"
+            android:icon="@drawable/icn_likes"
+            android:title="علاقمندیهام" />
+        <item
+            android:id="@+id/nav_getCoin"
+            android:icon="@drawable/icn_get_coin"
+            android:title="امتیاز میخام" />
+    </group>
+
+    <item android:title="سایر">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="اشتراک گذاری" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/icn_contact_us"
+                android:title="تماس با ما" />
+            <item
+                android:id="@+id/nav_about_yol"
+                    android:icon="@drawable/icn_about_yol"
+                android:title="درباره یول" />
+        </menu>
+    </item>
+
+</menu>

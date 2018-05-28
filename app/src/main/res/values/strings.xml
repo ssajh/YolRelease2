@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">یول</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">تنظیمات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_jobs">مشاغل</string>
+    <string name="title_search">جستجو</string>
+    <string name="title_navigation">ناوبری</string>
+    <string name="title_public_places">مراکز عمومی</string>
+
+    <string name="spinner_title">دسته بندی را انتخاب کنید</string>
+
+    <string name="title_vahed_Type1">فروشگاهی</string>
+    <string name="title_vahed_Type2">تعمیرات</string>
+    <string name="title_vahed_Type3">خوردنی و آشامیدنی</string>
+    <string name="title_vahed_Type4">اماکن عمومی</string>
+    <string name="title_vahed_Type5">سازمانهای دولتی</string>
+    <string name="title_vahed_Type6">خودرو</string>
+    <string name="title_vahed_Type7">مکانهای دولتی</string>
+    <string name="title_vahed_Type8">بانک</string>
+    <string name="title_vahed_Type9">مراکز آموزشی</string>
+    <string name="title_vahed_Type10">سرگرمی</string>
+    <string name="title_vahed_Type11">ورزش</string>
+    <string name="title_vahed_Type12">صنایع مادر</string>
+    <string name="title_vahed_Type13">خدماتی</string>
+    <string name="title_vahed_Type14">مراکز ضروری</string>
+    <string name="title_vahed_Type15">خدمات ساختمانی</string>
+    <string name="title_vahed_Type16">مراکز درمانی</string>
+    <string name="title_vahed_Type17">مراکز خرید</string>
+    <string name="title_vahed_Type18">مراکز ضروری روزانه</string>
+    <string name="title_vahed_Type19">لوازم موتور</string>
+    <string name="title_vahed_Type20">مجتمع ها</string>
+    <string name="title_vahed_Type21">فناوری اطلاعات و ارتباطات</string>
+
+</resources>

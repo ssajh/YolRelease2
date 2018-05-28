@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssaj.setak.yolrelease1.MainActivity"
+    android:id="@+id/app_bar_main_id">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        />
+    <!--layout="@layout/content_main"-->
+
+  <!--  <android.support.design.widget.FloatingActionButton
+        android:id="@+id/myNearByPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_menu_share" />
+-->
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/myPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_gps_icon" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvRecyclerHideShow"
+            android:text="@string/icn_recycler_show"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/recycler_hide_show_background"
+            android:layout_marginLeft="15sp"
+            android:layout_marginBottom="-10sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/recycler_view_Line">
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                tools:context="com.ssaj.setak.yolrelease1.MainActivity"
+                android:id="@+id/recycler_view"
+                android:visibility="visible"
+                android:background="@android:color/transparent"
+                >
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#6a1b9a"
+            android:background="@color/clrBottomNavigationViewBackground"
+            app:menu="@menu/navigation"
+            style="@style/BottomNavigation"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
